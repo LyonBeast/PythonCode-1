@@ -1,3 +1,4 @@
+'''
 def encipher_fence(plaintext,numRails):
     ciphertext = ""
     r = []
@@ -28,6 +29,7 @@ def decipher_fence(ciphertext,numRails):
     return
 
 def decode_text(ciphertext,wordfilename):
-    '''decode_text(ciphertext,wordfilename) -> str
+    decode_text(ciphertext,wordfilename) -> str
     attempts to decode ciphertext using railfence cipher
-    wordfilename is a file with a list of valid words'''
+    wordfilename is a file with a list of valid words
+'''
