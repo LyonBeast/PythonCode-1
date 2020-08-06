@@ -33,3 +33,9 @@ def decode_text(ciphertext,wordfilename):
     attempts to decode ciphertext using railfence cipher
     wordfilename is a file with a list of valid words
 '''
+
+alist = [3,5]
+dictname = {}
+dictname['tom'] = alist
+alist = []
+print(dictname['tom'])
