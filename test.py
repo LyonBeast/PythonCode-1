@@ -11,10 +11,9 @@ def encipher_fence(plaintext,numRails):
         ciphertext += r[z]
         
     return ciphertext
-print(encipher_fence("abcdefghijklmnop", 5))
+print(encipher_fence("python", -69))
         
             
-    
 
 def decipher_fence(ciphertext,numRails):
     remainder  = len(ciphertext) % numRails
@@ -34,8 +33,4 @@ def decode_text(ciphertext,wordfilename):
     wordfilename is a file with a list of valid words
 '''
 
-alist = [3,5]
-dictname = {}
-dictname['tom'] = alist
-alist = []
-print(dictname['tom'])
+
